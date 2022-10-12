@@ -12,19 +12,6 @@ const checkObject = (objectOne, objectTwo) => {
     return true;
 }
 const deepEquals = (valueOne, valueTwo) => {
-    if(typeof valueOne !== typeof valueTwo) return false;
-    if(typeof valueOne !== "object" && typeof valueTwo !== "object") {
-        let valueOneIsNaN = isNaN(valueOne) && typeof valueOne === "number";
-        let valueTwoIsNaN = isNaN(valueTwo) && typeof valueTwo === "number";
-        if(valueOneIsNaN && valueTwoIsNaN) return true;
-    }
-    if(Array.isArray(valueOne) && Array.isArray(valueTwo)) {
-        if(valueOne.length !== valueTwo.length) return false;
-        for(let i = 0; i < valueOne.length; i++) {
-            if(typeof valueOne[i] !== typeof valueTwo[i]) return false;
-        }
-        return true;
-    }
     if(typeof valueOne === "object" && typeof valueTwo === "object") {
         let keysOfValueOne = Object.keys(valueOne);
         let keysOfValueTwo = Object.keys(valueTwo);
