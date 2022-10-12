@@ -1,7 +1,7 @@
 const discordStrategy = require("passport-discord").Strategy;
 const passport = require("passport");
 let scopes = ["identify", "email", "guilds", "guilds.join"];
-const {User} = require("../db/schema/User");
+const {User} = require("../db/schema/user.schema");
 passport.serializeUser((user, cb) => {
     cb(null, user.id);
 });

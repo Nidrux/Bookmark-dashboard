@@ -1,4 +1,4 @@
-const { User } = require("../db/schema/User");
+const { User } = require("../db/schema/user.schema");
 const {deepEquals}= require("./deepEqual");
 module.exports = async (req, res, next) => {
     if(!req.user) return res.redirect("/auth");

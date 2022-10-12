@@ -1,5 +1,4 @@
 // I wrote this once, sounds usefull. time to use it!
-
 const checkObject = (objectOne, objectTwo) => {
     let keysOfValueOne = Object.keys(objectOne);
     let keysOfValueTwo = Object.keys(objectTwo);
@@ -23,7 +22,6 @@ const deepEquals = (valueOne, valueTwo) => {
         }
         return true;
     }
-
     return valueOne === valueTwo;
 }
 module.exports.deepEquals = deepEquals;
