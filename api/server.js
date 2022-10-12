@@ -1,12 +1,10 @@
 require("dotenv").config();
 const express = require('express');
-const path = require("path");
 const app = express();
 const PORT = process.env.PORT || 3000;
 const session = require("express-session");
 const passport = require("passport");
 const database = require("./db/connection");
-const discord = require("./strategies/discord.strategy.js");
 /* 
     Database
 */

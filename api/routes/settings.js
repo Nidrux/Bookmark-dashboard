@@ -16,7 +16,7 @@ router.get("/:guild_id", isAuth, (req, res) => {
     /* 
     
         Find settings based on the filter {guildID: _guildID};
-        Exclude certain fields to send them over the api. {_id: 0, _v: 0};
+        Exclude certain fields to not send them over the api. {_id: 0, _v: 0};
         0 = exclude, 1 = include
 
         Maybe need to add in some more safety features to check if guild provided is actually in the user's session guild list.
