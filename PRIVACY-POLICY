@@ -1,0 +1,35 @@
+Privacy policy
+This privacy policy will help you understand how Bookmark uses and
+protects the data you provide to us when you use Bookmark.
+We reserve the right to change this policy at any given time, of which you will be promptly
+updated. If you want to make sure that you are up to date with the latest changes, we advise
+you to frequently visit this page.
+
+What User Data We Collect
+When using Bookmark, we may collect the following data:
+
+° Your guild's name.
+° Your guild's id.
+° Your Discord username.
+° The reactions you add to messages on Discord.
+
+Why We Collect Your Data
+We are collecting your data for several reasons:
+    ° To provide per guild functionality.
+    ° To log specific events. This to help when any problems arises
+    What we log:
+        - Guild joins.
+        - Reactions on messages. This includes guild id, discord username, what emote, stored emote.
+        - To who a bookmark is sent. This includes a discord username.
+        - Missing setups. This includes a guild id
+
+Safeguarding and Securing the Data
+Bookmark is committed to securing your data and keeping it confidential. Bookmark has done all in its
+power to prevent data theft, unauthorized access, and disclosure by implementing the latest
+technologies and software, which help us safeguard all the information we collect online.     
+
+Removal of data
+When asking for a removal of your data we request the following information:
+° guild id
+° Proof of ownership of the given guild.
+Asking for removal of data can be requested trough Discord. DM the bot owner skeleton man#3276
